@@ -14,7 +14,7 @@ services:
   backend:
     image: valentinnn/kittygram_backend
     ports:
-      - "9001:9001"
+      - "9002:9001"
     env_file: .env
     volumes:
       - static_volume:/backend_static
