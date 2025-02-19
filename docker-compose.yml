@@ -34,4 +34,3 @@ services:
       - media:/media
     depends_on:
       - frontend
-# f
